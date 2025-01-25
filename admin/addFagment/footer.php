@@ -33,12 +33,39 @@
 </div>
 </div>
 <script src="../admin/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<script src="../admin/js/scripts.js"></script>
+<!-- <script src="../admin/js/scripts.js"></script> -->
 <script src="../admin/js/Chart.min.js" crossorigin="anonymous"></script>
 <script src="../admin/assets/demo/chart-area-demo.js"></script>
 <script src="../admin/assets/demo/chart-bar-demo.js"></script>
 <script src="../admin/js/simple-datatables.min.js" crossorigin="anonymous"></script>
-<script src="../admin/js/datatables-simple-demo.js"></script>
+<!-- <script src="../admin/js/datatables-simple-demo.js"></script> -->
+<script>
+    window.addEventListener('DOMContentLoaded', event => {
+
+        // Toggle the side navigation
+        const sidebarToggle = document.body.querySelector('#sidebarToggle');
+        if (sidebarToggle) {
+            // Uncomment Below to persist sidebar toggle between refreshes
+            // if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
+            //     document.body.classList.toggle('sb-sidenav-toggled');
+            // }
+            sidebarToggle.addEventListener('click', event => {
+                event.preventDefault();
+                document.body.classList.toggle('sb-sidenav-toggled');
+                localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
+            });
+        }
+
+        // Simple-DataTables
+        // https://github.com/fiduswriter/Simple-DataTables/wiki
+
+        const datatablesSimple = document.getElementById('datatablesSimple');
+        if (datatablesSimple) {
+            new simpleDatatables.DataTable(datatablesSimple);
+        }
+
+    });
+</script>
 
 </body>
 
