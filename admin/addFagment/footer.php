@@ -35,10 +35,10 @@
 <script src="../admin/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <script src="../admin/js/scripts.js"></script>
 <script src="../admin/js/Chart.min.js" crossorigin="anonymous"></script>
-<script src="../assets/demo/chart-area-demo.js"></script>
-<script src="../assets/demo/chart-bar-demo.js"></script>
+<script src="../admin/assets/demo/chart-area-demo.js"></script>
+<script src="../admin/assets/demo/chart-bar-demo.js"></script>
 <script src="../admin/js/simple-datatables.min.js" crossorigin="anonymous"></script>
-<script src="../js/datatables-simple-demo.js"></script>
+<script src="../admin/js/datatables-simple-demo.js"></script>
 
 </body>
 

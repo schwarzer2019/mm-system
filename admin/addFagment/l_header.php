@@ -7,5 +7,5 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../admin/css/styles.css" rel="stylesheet" />
     <script src="../admin/js/all.js" crossorigin="anonymous"></script>
