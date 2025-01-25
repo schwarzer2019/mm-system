@@ -1,5 +1,5 @@
 <?php include_once __DIR__ . "/addFagment/header.php"; ?>
-<title>Manage System v1.1</title>
+<title>Manage System v1.2</title>
 </head>
 
 <body class="sb-nav-fixed">
