@@ -9,3 +9,4 @@
     <meta name="author" content="" />
     <link href="../admin/css/styles.css" rel="stylesheet" />
     <script src="../admin/js/all.js" crossorigin="anonymous"></script>
+    <script src="../admin/js/jquery-3.7.1.js" crossorigin="anonymous"></script>

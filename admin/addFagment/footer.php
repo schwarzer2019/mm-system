@@ -38,6 +38,7 @@
 <script src="../admin/assets/demo/chart-area-demo.js"></script>
 <script src="../admin/assets/demo/chart-bar-demo.js"></script>
 <script src="../admin/js/simple-datatables.min.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <!-- <script src="../admin/js/datatables-simple-demo.js"></script> -->
 <script>
     window.addEventListener('DOMContentLoaded', event => {
@@ -65,6 +66,7 @@
         }
 
     });
+
 </script>
 
 </body>
